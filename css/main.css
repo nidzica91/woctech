@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 14px;
+	font-family: 'Muli', sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+.container {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.mt-40 {
+	margin-top: 40px;
+}
+
+header {
+	width: 100%;
+	height: 100%;
+	background: #000 url("../img/site-hero.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.header-top {
+	width: 100%;
+	padding-top: 35px;
+}
+
+.logo {
+	float: left;
+}
+
+.logo a {
+	text-decoration: none;
+}
+
+.logo a img {
+	width: 30px;
+	height: 30px;
+}
+
+.menu {
+	float: right;
+	padding-top: 7px;
+	padding-right: 10px;
+}
+
+.nav {
+	float: left;
+}
+
+.nav ul{
+	list-style: none;
+}
+
+.nav ul li {
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #f1f1f1;
+	font-size: 11px;
+}
+
+.header-bottom {
+	width: 100%;
+}
+
+.header-content {
+	margin: 0 auto;
+	width: 700px;
+	padding-top: 250px;
+	padding-bottom: 102px;
+}
+
+.heading {
+	width: 650px;
+	margin: 0 auto;
+}
+
+.heading h1 {
+	color: #fff;
+	font-size: 50px;
+	letter-spacing: 10px;
+	padding-bottom: 35px;
+}
+
+.header-content p {
+	color: #f1f1f1;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.intro {
+	width: 100%;
+	background: #111;
+}
+
+.left-box {
+	font-family: 'Playfair Display', serif;
+	color: #fff;
+	font-style: italic;
+	font-size: 18px;
+	margin: 60px 0;
+}
+
+.right-box {
+	color: #999;
+	font-size: 16px;
+	margin: 60px 0;
+	line-height: 22px;
+}
+
+.top {
+	margin-top: 20px;
+}
+
+.top-line {
+	margin: 0 auto;
+	width: 5px;
+	height: 100px;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+
+.content-inner {
+	width: 100%;
+}
+
+.content-text {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content-text h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	padding-bottom: 20px;
+}
+
+.content-text p {
+	margin: 0 250px;
+	color: #777;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.box i {
+	font-size: 40px;
+	padding-bottom: 25px;
+	color: lightgray;
+}
+
+.box h2 {
+	font-size: 20px;
+	font-weight: lighter;
+	padding-bottom: 15px;
+}
+
+.box p {
+	color: #777;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.image {
+	position: relative;
+}
+
+.image-box {
+	width: 300px;
+	height: 360px;
+	border: 5px double #e5e5e5;
+}
+
+.image-box img {
+	width: 100%;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+
+.service {
+	width:100%;
+}
+
+.statistic {
+	width: 100%;
+}
+
