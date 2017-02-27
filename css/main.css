@@ -18,12 +18,16 @@ body {
 	margin: 0 auto;
 }
 
-.mb-20 {
-	margin-bottom: 20px;
+.mb-60 {
+	margin-bottom: 60px;
 }
 
-.mt-40 {
-	margin-top: 40px;
+.pb-100 {
+	padding-bottom: 100px;
+}
+
+.pb-150 {
+	padding-bottom: 150px;
 }
 
 header {
@@ -126,6 +130,10 @@ header {
 	line-height: 22px;
 }
 
+.content {
+	width: 100%;
+}
+
 .top {
 	margin-top: 20px;
 }
@@ -190,15 +198,62 @@ header {
 
 .image-box img {
 	width: 100%;
-	margin-top: 60px;
-	margin-left: 60px;
+	margin-top: 35px;
+	margin-left: 50px;
 }
 
 .service {
-	width:100%;
+	float: left;
+	width: 66%;
 }
 
 .statistic {
 	width: 100%;
+	background: #000 url("../img/facts.jpg") no-repeat top center fixed;
+	background-size: cover;
+	padding: 100px 0;
 }
 
+.block span {
+	font-size: 40px;
+	color: #fff;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+.h-line {
+	height: 30px;
+	border-left: 2px solid #777;
+	margin-left: 5px;
+} 
+
+.block h6 {
+	font-size: 20px;
+	color: #fff;
+	padding-top: 10px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	line-height: 40px;
+	font-size: 16px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #999;
+	padding-left: 20px;
+}
+
+nav ul li.active a {
+	color: #fff;
+	padding: 3px 10px;
+	background-color: #000;
+}
+
+.inline {
+	display: inline;
+}
