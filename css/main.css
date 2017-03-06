@@ -32,9 +32,10 @@ body {
 
 header {
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	background: #000 url("../img/site-hero.jpg") no-repeat center center fixed;
 	background-size: cover;
+
 }
 
 .header-top {
@@ -80,13 +81,15 @@ header {
 
 .header-bottom {
 	width: 100%;
+	position: relative;
 }
 
 .header-content {
 	margin: 0 auto;
 	width: 700px;
-	padding-top: 250px;
-	padding-bottom: 102px;
+	position: absolute;
+	top: 250px;
+	left: 250px;
 }
 
 .heading {
@@ -297,6 +300,7 @@ nav ul li.active a {
 
 footer {
 	width: 100%;
+	text-align: center;
 }
 
 .footer-logo {
@@ -316,6 +320,7 @@ footer {
 	width: 240px;
 	margin: 0 auto;
 	padding-top: 30px;
+	padding-bottom: 60px;
 }
 
 .social-links ul {
@@ -337,4 +342,41 @@ footer {
 
 .icon {
 	padding: 2px 10px;
+}
+
+.footer-text, .footer-slogan, .footer-top {
+	width: 100%;
+}
+
+.footer-copy {
+	padding-bottom: 15px;
+}
+
+.footer-copy a {
+	color: #999;
+	text-decoration: none;
+}
+
+.footer-copy a:hover {
+	color: #000;
+}
+
+.footer-slogan {
+	padding-bottom: 30px;
+	color: #999;
+	font-size: 16px;
+}
+
+.footer-top {
+	padding-bottom: 30px;
+}
+
+.footer-top a {
+	text-decoration: none;
+	color: #999;
+	font-size: 30px;
+}
+
+.footer-top a:hover {
+	color: #000;
 }
