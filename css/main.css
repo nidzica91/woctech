@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-	width: 1150px;
+	max-width: 1150px;
 	margin: 0 auto;
 }
 
@@ -71,18 +71,47 @@ header {
 	float: left;
 }
 
-.nav ul{
+.nav ul {
 	list-style: none;
+	position: relative;
 }
 
 .nav ul li {
 	display: inline-block;
+	position: relative;
 }
 
 .nav ul li a {
 	text-decoration: none;
 	color: #f1f1f1;
 	font-size: 11px;
+}
+
+.nav ul ul {
+	display: none;
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	background: #fff;
+}
+
+.nav ul ul li {
+	
+}
+
+.nav ul ul li a {
+	display: block;
+	color: #000;
+	padding: 0 15px;
+	width: 200px;
+}
+
+.nav ul ul li:hover {
+	background: #999;
+}
+
+.nav ul li:hover > ul {
+	display: block;
 }
 
 .header-bottom {
@@ -92,14 +121,14 @@ header {
 
 .header-content {
 	margin: 0 auto;
-	width: 700px;
+	max-width: 700px;
 	position: absolute;
 	top: 250px;
 	left: 250px;
 }
 
 .heading {
-	width: 650px;
+	max-width: 650px;
 	margin: 0 auto;
 }
 
@@ -198,7 +227,7 @@ header {
 }
 
 .image-box {
-	width: 300px;
+	max-width: 300px;
 	height: 360px;
 	border: 5px double #e5e5e5;
 }
@@ -206,7 +235,7 @@ header {
 .image-box img {
 	width: 100%;
 	margin-top: 35px;
-	margin-left: 50px;
+	margin-left: 50px; /* ovde ispraviti responsive */
 }
 
 .service {
@@ -285,7 +314,8 @@ nav ul li.active a {
 }
 
 .news-input form input {
-	padding: 15px 340px 15px 10px;
+	width: 100%;
+	padding: 15px 0;
 	text-align: left;
 	background-color: #111;
 	border: 1px solid #fff;
@@ -404,11 +434,11 @@ footer {
 
 .header-bottom-content {
 	margin: 0 auto;
-	width: 700px;
+	max-width: 700px;
 }
 
 .header-bottom-heading {
-	width: 650px;
+	max-width: 650px;
 	margin: 0 auto;
 }
 
@@ -455,6 +485,114 @@ footer {
 	padding: 40px 0;
 }
 
-.image:hover {
+.newsletter-image-inner:hover {
 	opacity: 0.2;
+}
+
+/*              SERVICES.HTML           */
+.service-text {
+	width: 100%;
+	text-align: center;
+}
+
+.service-text h2 {
+	font-family: 'Playfair Display', serif;
+	color: #999;
+	font-size: 25px;
+	font-weight: lighter;
+	margin-bottom: 10px;
+	font-style: italic;
+	padding-bottom: 50px;
+}
+
+.service-text p {
+	color: #999;
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: normal;
+}
+
+.service-text a {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.service-text a:hover {
+	background: #999;
+}
+
+.service-text img {
+	width: 100%;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.pricing {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.bg-white {
+	background: #fff;
+}
+
+.price-box {
+	width: 100%;
+}
+
+.price-box h2 {
+	font-size: 16px;
+	color: #999;
+	font-weight: normal;
+	padding: 30px 0;
+}
+
+.price-box ul {
+	list-style: none;
+}
+
+.price-box ul li {
+	font-size: 16px;
+	color: #111;
+	padding-bottom: 20px;
+}
+
+.price-box a {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+	padding: 10px 40px;
+	margin: 15px 0;
+}
+
+.price-box a:hover {
+	background: #999;
+}
+
+.price h1 {
+	font-weight: normal;
+	font-size: 50px;
+	padding-bottom: 15px;
+}
+
+.price h1 span {
+	color: #888;
+	font-weight: normal;
+	font-size: 35px;
+	position: relative;
+	bottom: 20px;
+}
+
+.price p {
+	color: #999;
+	font-size: 16px;
+	padding-bottom: 20px;
 }
