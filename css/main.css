@@ -512,7 +512,7 @@ footer {
 	font-weight: normal;
 }
 
-.service-text a {
+.service-text .btn {
 	display: inline-block;
 	text-decoration: none;
 	color: #fff;
@@ -521,7 +521,7 @@ footer {
 	margin-top: 30px;
 }
 
-.service-text a:hover {
+.service-text .btn:hover {
 	background: #999;
 }
 
@@ -595,4 +595,49 @@ footer {
 	color: #999;
 	font-size: 16px;
 	padding-bottom: 20px;
+}
+
+.picture-slide {
+	width: 100%;
+	padding-top: 80px;
+}
+
+.picture-slide img {
+	width: 100%;
+}
+
+.text-align-left {
+	text-align: left;
+}
+
+.list, .social-list {
+	list-style: none;
+}
+
+.list li {
+	padding: 5px 0;
+	font-size: 15px;
+	color: #999;
+	text-align: left;
+	letter-spacing: 1px;
+}
+
+.list li i {
+	padding-right: 5px;
+}
+
+.social-list {
+	padding-top: 20px;
+}
+
+.social-list li {
+	display: inline-block;
+	float: left;
+}
+
+.social-list li a {
+	background: #fff;
+	color: #999;
+	font-size: 20px;
+	padding-right: 10px;
 }
