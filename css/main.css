@@ -597,6 +597,8 @@ footer {
 	padding-bottom: 20px;
 }
 
+/*              SINGLE_PROJECT.HTML           */
+
 .picture-slide {
 	width: 100%;
 	padding-top: 80px;
@@ -640,4 +642,221 @@ footer {
 	color: #999;
 	font-size: 20px;
 	padding-right: 10px;
+}
+
+/*              POSTS_LIST.HTML           */
+
+.blog {
+	width: 100%;
+}
+
+.blog-picture, .blog-video, .blog-audio {
+	width: 100%;
+}
+
+.blog-picture {
+	margin-top: 70px;
+}
+
+.blog-video, .blog-audio {
+	margin-top: 50px;
+}
+
+.blog-picture img {
+	width: 100%;
+}
+
+.blog-picture-text h2, 
+.blog-video-text h2,
+.blog-audio-text h2 {
+	font-size: 30px;
+	color: #000;
+	font-weight: normal;
+}
+
+.blog-picture-text ul,
+.blog-video-text ul,
+.blog-audio-text ul {
+	list-style: none;
+	padding: 15px 0;
+	opacity: 0.5;
+}
+
+.blog-picture-text ul li, 
+.blog-video-text ul li,
+.blog-audio-text ul li {
+	display: inline-block;
+	font-size: 16px;
+	padding-right: 15px;
+	color: #999;
+}
+
+.blog-picture-text ul li i,
+.blog-video-text ul li i,
+.blog-audio-text ul li i {
+	padding-right: 5px;
+	font-size: 12px;
+}
+
+.blog-picture-text p,
+.blog-video-text p,
+.blog-audio-text p {
+	font-size: 16px;
+	color: #777;
+	padding-bottom: 15px;
+}
+
+.blog-picture-text a,
+.blog-video-text a,
+.blog-audio-text a {
+	text-decoration: none;
+	color: #999;
+	font-size: 16px;
+}
+
+.pagination {
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.pagination ul {
+	list-style: none;
+}
+
+.pagination ul li {
+	display: inline-block;
+}
+
+.pagination ul li a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 7px 14px;
+	color: #999;
+	font-size: 18px;
+	border: 1px solid #ddd;
+}
+
+.pagination ul li a:hover {
+	background: #ddd;
+}
+
+.latest-posts {
+	width: 100%;
+	margin-top: 70px;
+}
+
+.latest-posts img {
+	width: 100%;
+}
+
+.latest-posts img:hover {
+	opacity: 0.5; 
+}
+
+.latest-posts h2 {
+	font-size: 15px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.latest-posts h3 {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.latest-posts h3 a {
+	text-decoration: none;
+	color: #999;
+}
+
+.latest-posts p {
+	font-size: 12px;
+	color: #999;
+}
+
+.categories,
+.archive {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.categories h2,
+.archive h2 {
+	font-size: 15px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.categories h3,
+.archive h3 {
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.categories h3 a,
+.archive h3 a {
+	text-decoration: none;
+	color: #999;
+	
+}
+
+.categories p,
+.archive p {
+	font-size: 15px;
+	color: #999;
+}
+
+.tags {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.tags h2 {
+	font-size: 15px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.tag-box {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background: #ddd;
+	transition: all .2s ease-in-out;
+}
+
+.tag-box a {
+	text-decoration: none;
+	color: #999;
+	font-size: 12px;
+	display: inline-block;
+	padding: 8px 15px;
+}
+
+.tag-box:hover {
+	background: #777;
+}
+
+.instagram {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.instagram img {
+	width: 100%;
+}
+
+.instagram h2 {
+	font-size: 15px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.instagram a {
+	text-decoration: none;
+}
+
+.instagram img:hover {
+	opacity: 0.5;
 }
